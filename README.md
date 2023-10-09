@@ -196,20 +196,20 @@ top_results = feature_extractor.retrieve_instances(query_image_path, top_k = top
 
 ### Test : Image 1
 
-![Water Bottle](./Task_2/bottle_1.jpg)
+![Water Bottle](./Task_3/bottle_1.jpg)
 
 ### Result
 
-![Res_1](./Task_2/t2_rdownload.png)
-![Res_2](./Task_2/download%20(1).png)
-![Res_3](./Task_2/download%20(2).png)
-![Res_4](./Task_2/download%20(3).png)
-![Res_5](./Task_2/download%20(4).png)
-![Res_6](./Task_2/download%20(5).png)
-![Res_7](./Task_2/download%20(6).png)
-![Res_8](./Task_2/download%20(7).png)
-![Res_9](./Task_2/download%20(8).png)
-![Res_10](./Task_2/download%20(9).png)
+![Res_1](./Task_3/t2_rdownload.png)
+![Res_2](./Task_3/download%20(1).png)
+![Res_3](./Task_3/download%20(2).png)
+![Res_4](./Task_3/download%20(3).png)
+![Res_5](./Task_3/download%20(4).png)
+![Res_6](./Task_3/download%20(5).png)
+![Res_7](./Task_3/download%20(6).png)
+![Res_8](./Task_3/download%20(7).png)
+![Res_9](./Task_3/download%20(8).png)
+![Res_10](./Task_/download%20(9).png)
 
 ---
 
