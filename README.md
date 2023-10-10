@@ -4,9 +4,9 @@
 
 <!-- TOC -->
 
-# Data Extration to G-Drive
+# Data Extraction to G-Drive
 
-* The ZIP File is need to extract in G-Drive to use it.
+* The ZIP File needs to be extracted in G-Drive to use it.
 
 ```Python
  # Mount Drive...
@@ -30,6 +30,16 @@ with ZipFile('/content/gdrive/MyDrive/Greenox/mainbottledataset.zip', 'r') as zi
 
 print('Done...')
 ```
+
+# Download the Image / File Directly in Colab
+
+* Any image or data needs to get directly into Colab
+
+```Python
+# paste the link/url...
+ !wget https://www.apple.com/newsroom/images/live-action/wwdc-2023/standard/privacy/Apple-WWDC23-privacy-logo-230605_big.jpg.large_2x.jpg
+```
+
 
 # Task - 1  : Training a YOLOv5 model on a custom dataset on Google Colab
 
@@ -113,7 +123,7 @@ INDEX_FILE = "data.bin"
 IMG_SIZE = (416, 416)
 ```
 
-### filter the images...
+### Filter the images...
 
 * The images are filtered, if not `RGB` and not `.jpg` format.
 
@@ -137,8 +147,8 @@ def load_image(img_path: str) -> torch.Tensor:
 
 ### Main Function...
 
-* This is a class, which include the model loading feature extraion and defining the index for each loaded image. so, that we can collect it leter. 
-* Each image is embedded and and loaded.
+* This class includes the model loading feature extraction and defining the index for each loaded image so, that we can collect it later. 
+* Each image is embedded and loaded.
 
 ```Python
 class ImageFeatureExtractor:
@@ -178,7 +188,7 @@ class ImageFeatureExtractor:
 
 ```
 
-### Useage...
+### Usage...
 
 ```Python
 image_paths = get_files_in_directory(ROOT_DIR)
