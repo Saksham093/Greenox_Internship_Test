@@ -209,7 +209,7 @@ top_results = feature_extractor.retrieve_instances(query_image_path, top_k = top
 ![Res_7](./Task_3/download%20(6).png)
 ![Res_8](./Task_3/download%20(7).png)
 ![Res_9](./Task_3/download%20(8).png)
-![Res_10](./Task_/download%20(9).png)
+![Res_10](./Task_3/download%20(9).png)
 
 ---
 
